@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+
+/**
+ * Search for a file in a directory recursively.
+ * Both methods are doing the same thing but one is implemented using lambda.
+ */
 public class SearchFile {
     public static void main(String[] args){
         //String foundFile = searchFileRecursively(new File("C:\\CollectNAVService"), "runNAV.bat");

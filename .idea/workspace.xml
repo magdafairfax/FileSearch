@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358c9cb6-97dd-4783-8486-aeb6b4891476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SortCompanies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByIdAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByIdDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByNameAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByNameDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByPostCodeAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SearchCompaniesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileSearch/com/SearchFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSearch/com/SearchFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileSearch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SearchFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SearchFile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dO9FIHq4pTnQqlfhS005DlNnq8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -35,6 +57,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -49,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
+  <component name="RunManager" selected="JUnit.SearchCompaniesTest">
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Palindrome" />
       <module name="FileSearch" />
@@ -64,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.SearchFile" />
+    <configuration name="SortCompanies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SortCompanies" />
       <module name="FileSearch" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\WorkArea\Tutorials\Practice\advfn\lib\pretty-tools-JDDE-2.1.0&quot;" />
       <extension name="coverage">
@@ -99,6 +124,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchCompaniesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FileSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SearchCompaniesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FileSearch" />
       <extension name="coverage">
@@ -116,10 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchCompaniesTest" />
+        <item itemvalue="Application.SortCompanies" />
         <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.SearchFileTest" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.SearchFile" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +177,10 @@
       <workItem from="1592285170896" duration="4749000" />
       <workItem from="1592559695776" duration="185000" />
       <workItem from="1592636690651" duration="1814000" />
+      <workItem from="1592639042717" duration="408000" />
+      <workItem from="1592757038996" duration="184000" />
+      <workItem from="1594492407097" duration="6436000" />
+      <workItem from="1594534481313" duration="5270000" />
     </task>
     <servers />
   </component>
@@ -147,10 +192,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
