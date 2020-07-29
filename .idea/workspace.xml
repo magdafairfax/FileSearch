@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358c9cb6-97dd-4783-8486-aeb6b4891476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/SortCompanies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByIdAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByIdDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByNameAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByNameDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sort/SortByPostCodeAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SearchCompaniesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/CompareCalendarDates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileSearch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SearchFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SearchFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileSearch/META-INF/FileSearch.kotlin_module" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +39,10 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -57,31 +52,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.SearchCompaniesTest">
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Palindrome" />
+  <component name="RunManager" selected="Application.CompareCalendarDates">
+    <configuration name="CompareCalendarDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sort.CompareCalendarDates" />
       <module name="FileSearch" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\WorkArea\Tutorials\Practice\advfn\lib\pretty-tools-JDDE-2.1.0&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareCalendarDates" />
         <item itemvalue="JUnit.SearchCompaniesTest" />
         <item itemvalue="Application.SortCompanies" />
         <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.SearchFileTest" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -181,26 +165,44 @@
       <workItem from="1592757038996" duration="184000" />
       <workItem from="1594492407097" duration="6436000" />
       <workItem from="1594534481313" duration="5270000" />
+      <workItem from="1596037307928" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2561" height="406" key="GridCell.Tab.0.bottom" timestamp="1596038800770">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="406" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1152.0.1152.2008/3840.0.1152.2008@0.0.2560.1400" timestamp="1596038800770" />
+    <state width="2561" height="406" key="GridCell.Tab.0.center" timestamp="1596038800770">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="406" key="GridCell.Tab.0.center/0.0.2560.1400/-1152.0.1152.2008/3840.0.1152.2008@0.0.2560.1400" timestamp="1596038800770" />
+    <state width="2561" height="406" key="GridCell.Tab.0.left" timestamp="1596038800770">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="406" key="GridCell.Tab.0.left/0.0.2560.1400/-1152.0.1152.2008/3840.0.1152.2008@0.0.2560.1400" timestamp="1596038800770" />
+    <state width="2561" height="406" key="GridCell.Tab.0.right" timestamp="1596038800770">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2561" height="406" key="GridCell.Tab.0.right/0.0.2560.1400/-1152.0.1152.2008/3840.0.1152.2008@0.0.2560.1400" timestamp="1596038800770" />
   </component>
 </project>
