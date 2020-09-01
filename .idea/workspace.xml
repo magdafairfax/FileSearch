@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358c9cb6-97dd-4783-8486-aeb6b4891476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sort/CompareCalendarDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utils/Ansi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileSearch/META-INF/FileSearch.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +165,8 @@
       <workItem from="1594492407097" duration="6436000" />
       <workItem from="1594534481313" duration="5270000" />
       <workItem from="1596037307928" duration="1491000" />
+      <workItem from="1596649578311" duration="42000" />
+      <workItem from="1598970571589" duration="244000" />
     </task>
     <servers />
   </component>
